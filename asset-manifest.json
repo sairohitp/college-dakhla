@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/college-dakhla/static/css/main.af3cbf0a.css",
+    "main.js": "/college-dakhla/static/js/main.561fa123.js",
+    "static/js/787.038b35dd.chunk.js": "/college-dakhla/static/js/787.038b35dd.chunk.js",
+    "static/media/header.png": "/college-dakhla/static/media/header.b8524782c9caac966670.png",
+    "static/media/whoareweimg.jpeg": "/college-dakhla/static/media/whoareweimg.2ad1aeb4c98f68cefb51.jpeg",
+    "static/media/btech.jpg": "/college-dakhla/static/media/btech.8136e0bf231edb575f54.jpg",
+    "static/media/mbbs.jpg": "/college-dakhla/static/media/mbbs.d8e9e7022866c4070818.jpg",
+    "index.html": "/college-dakhla/index.html",
+    "main.af3cbf0a.css.map": "/college-dakhla/static/css/main.af3cbf0a.css.map",
+    "main.561fa123.js.map": "/college-dakhla/static/js/main.561fa123.js.map",
+    "787.038b35dd.chunk.js.map": "/college-dakhla/static/js/787.038b35dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af3cbf0a.css",
+    "static/js/main.561fa123.js"
+  ]
+}
