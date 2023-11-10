@@ -88,8 +88,10 @@ section {
   gap: 80px;
 }
 
-#whoarewe-section .subbody > div:first-child {
-
+.whoarewe-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container > div:first-child {
@@ -122,4 +124,13 @@ button {
   outline: none;
   font-weight: 500;
   font-kerning: none;
+  width: fit-content;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }

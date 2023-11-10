@@ -31,24 +31,26 @@ function App() {
 
                 <div id="whoarewe-section">
                     <div className="subbody">
-                        <div>
-                            <p className = "sectionLabel">WHO ARE WE</p>
-                            <h2>
-                                Knowledge will bring you the opportunity to make
-                                a difference.
-                            </h2>
-                            <p>
-                                We believe every student deserves the best
-                                education in their life and hence provide a
-                                portal where students can find top colleges in
-                                India and choose their dream vocation.
-                                <br />
-                                <br />
-                                We offer complete assistance to students from
-                                admission counseling, college selections,
-                                educational loan assistance, career counseling,
-                                and vocation selection.
-                            </p>
+                        <div className="whoarewe-column">
+                            <div>
+                                <p className="sectionLabel">WHO ARE WE</p>
+                                <h2>
+                                    Knowledge will bring you the opportunity to
+                                    make a difference.
+                                </h2>
+                                <p>
+                                    We believe every student deserves the best
+                                    education in their life and hence provide a
+                                    portal where students can find top colleges
+                                    in India and choose their dream vocation.
+                                    <br />
+                                    <br />
+                                    We offer complete assistance to students
+                                    from admission counseling, college
+                                    selections, educational loan assistance,
+                                    career counseling, and vocation selection.
+                                </p>
+                            </div>
                             <button>DISCOVER MORE</button>
                         </div>
 
@@ -59,13 +61,12 @@ function App() {
                                     src={whoareweimg}
                                     alt="Building with sky background"
                                     id="whoarewe-img"
-                                />                                
+                                />
                             </div>
                             <div>
-                              <h1>Get Admission in Top Colleges</h1>
-                            </div>                        
+                                <h1>Get Admissions in Top Colleges</h1>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </section>
