@@ -143,7 +143,7 @@ function App() {
 
             <div id = "streams">
 
-                <div className="stream">
+                <div className="stream" style={{backgroundColor: '#A0C814'}}>
                     <div className="stream-content">
                         <h2>Start Your Career with B.Tech Program.</h2>
                         <div>
@@ -155,15 +155,15 @@ function App() {
                     </div>
                 </div>
                 
-                <div className="stream">
+                <div className="stream" style={{backgroundColor: '#EF5F43'}}>
                     <div className="stream-content">
-                        <h2>Start Your Career with B.Tech Program.</h2>
+                        <h2>Start Your Career with MBBS Program.</h2>
                         <div>
                             <span class="material-symbols-outlined stream-icon">east</span>
                         </div>
                     </div>
                     <div className="stream-img-container">
-                        <img src={btech} className="stream-img"/>
+                        <img src={mbbs} className="stream-img"/>
                     </div>
                 </div>
 
