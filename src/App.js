@@ -2,6 +2,8 @@ import "./App.css";
 import logo from "./assets/logo.png";
 import header from "./assets/header.png";
 import whoareweimg from "./assets/whoareweimg.jpeg";
+import btech from "./assets/btech.jpg";
+import mbbs from "./assets/mbbs.jpg";
 
 function App() {
     return (
@@ -103,7 +105,7 @@ function App() {
                     <div className="gallery-child">
                         <div>
                             <span class="material-symbols-outlined">
-                            checkbook
+                                checkbook
                             </span>
                         </div>
                         <div>
@@ -138,18 +140,33 @@ function App() {
                 </div>
             </section>
 
-            <div>
 
-              <div>
-                <div>
-                  <h2></h2>
-                  <div>
+            <div id = "streams">
 
-                  </div>
+                <div className="stream">
+                    <div className="stream-content">
+                        <h2>Start Your Career with B.Tech Program.</h2>
+                        <div>
+                            <span class="material-symbols-outlined stream-icon">east</span>
+                        </div>
+                    </div>
+                    <div className="stream-img-container">
+                        <img src={btech} className="stream-img"/>
+                    </div>
                 </div>
-                <div><img/></div>
-              </div>
-              
+                
+                <div className="stream">
+                    <div className="stream-content">
+                        <h2>Start Your Career with B.Tech Program.</h2>
+                        <div>
+                            <span class="material-symbols-outlined stream-icon">east</span>
+                        </div>
+                    </div>
+                    <div className="stream-img-container">
+                        <img src={btech} className="stream-img"/>
+                    </div>
+                </div>
+
             </div>
         </>
     );

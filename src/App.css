@@ -194,8 +194,6 @@ button:hover {
   cursor: pointer;
 }
 
-
-
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -232,7 +230,7 @@ button:hover {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .gallery-child {
@@ -257,6 +255,47 @@ button:hover {
 }
 
 .gallery > div:nth-child(2) > div > span {
+  background-color: #FFFFFF;
+  color: #A0C814;
+}
+
+#streams {
+  margin-top: -50px;
+  padding: 0em 3em 3em 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stream {
+  background-color: #A0C814;
+  color: #FFFFFF;
+  width: 780px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stream-content {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+
+.stream-content > h2 {
+  font-size: 2em;
+}
+
+.stream-img {
+  height: 500px;
+  width: 390px;
+  object-fit: cover;
+}
+
+.stream-icon {
+  border-radius: 100%;
+  padding: 1em;
   background-color: #FFFFFF;
   color: #A0C814;
 }
