@@ -2,7 +2,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #FFFFFF;
 }
 
 h2 {
@@ -21,12 +21,36 @@ p {
   font-weight: 300;
 }
 
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+/* .drop-down {
+  font-color: #FFFFFF;
+} */
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.9);
   padding: 10px;
   overflow: hidden;
   z-index: 1;
@@ -35,17 +59,12 @@ p {
 
 .navbar a {
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px;
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-}
-
-.navbar a:hover {
-  color: #EF5F43;
 }
 
 .navbar a:active {
@@ -71,14 +90,34 @@ p {
   display: flex;
 }
 
+.navbar .subbody > div:nth-child(2) > a {
+  color: #FFFFFF;
+}
+
+.navbar .subbody > div:nth-child(2) > a:hover {
+  color: #EF5F43;
+}
+
 .navbar .subbody > div:nth-child(3) {
   background-color: #A0C814;
-  font-color: #121212;
-  padding: 0px 20px;
+  color: #121212;
+  padding: 0.9em 2em;
+  transition: 0.2s ease-in-out;
+  font-size: 14px;
+  font-weight: 600;
+  font-kerning: none;
+}
+
+.navbar .subbody > div:nth-child(3):hover {
+  background-color: #EF5F43;
+  color: #FFFFFF;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 section {
-  padding-top: 80px;
+  padding-top: 84px;
+  background-color: #f5f5f5;
 }
 
 #headerimg {
@@ -138,10 +177,19 @@ button {
   background-color: #A0C814;
   border: none;
   outline: none;
-  font-weight: 500;
+  font-weight: 600;
   font-kerning: none;
   width: fit-content;
 }
+
+button:hover {
+  background-color: #EF5F43;
+  color: #FFFFFF;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -157,7 +205,7 @@ button {
 
 #whoarewe-img-column {
   padding: 2em;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   text-align: center;
   position: relative;
   width: fit-content;
@@ -188,7 +236,7 @@ button {
   gap: 20px;
   padding: 3em 2em;
   width: 350px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 .gallery-child > div > span {

@@ -17,12 +17,16 @@ function App() {
                         <a href="#">ADMISSION</a>
                         <a href="#">ABOUT US</a>
                         <a href="#">COURSES</a>
+                        {/* <span class="material-symbols-outlined drop-down">
+                            expand_more
+                        </span> */}
                         <a href="#">MBBS</a>
+                        {/* <span class="material-symbols-outlined drop-down">
+                            expand_more
+                        </span> */}
                         <a href="#">CONTACT US</a>
                     </div>
-                    <div>
-                        <a href="#">CALL +918898880100</a>
-                    </div>
+                    <div>CALL +918898880100</div>
                 </div>
             </nav>
 
@@ -55,20 +59,18 @@ function App() {
                         </div>
 
                         <div class="container">
-                            
-                                <div></div>
-                                <div>
-                                    <img
-                                        src={whoareweimg}
-                                        alt=""
-                                        id="whoarewe-img"
-                                    />
-                                </div>
-                            
+                            <div></div>
+                            <div>
+                                <img
+                                    src={whoareweimg}
+                                    alt=""
+                                    id="whoarewe-img"
+                                />
+                            </div>
                         </div>
                     </div>
 
-                    <div id = "whoarewe-img-column">
+                    <div id="whoarewe-img-column">
                         <span class="material-symbols-outlined bookmark">
                             bookmark
                         </span>
@@ -80,43 +82,59 @@ function App() {
                 </div>
 
                 <div className="gallery">
+                    <div className="gallery-child">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                school
+                            </span>
+                        </div>
+                        <div>
+                            <h3>University Selection</h3>
+                            <p>
+                                University Selection has become the most vital
+                                role in the whole method to start with. Good
+                                results to colleges in most states is dependent
+                                upon the most suitable picks of the
+                                universities/colleges.
+                            </p>
+                        </div>
+                    </div>
 
-                  <div className="gallery-child">
-                    <div>
-                    <span class="material-symbols-outlined">
-                      school
-                    </span>
+                    <div className="gallery-child">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                school
+                            </span>
+                        </div>
+                        <div>
+                            <h3>Education Loan Assistance</h3>
+                            <p>
+                                College Dakhla aims to encourage pupils to
+                                pursue their schooling in procuring economic
+                                assistance. To encourage students to maintain
+                                advanced schooling despite their financial
+                                openings.
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                      <h3>University Selection</h3>
-                      <p>University Selection has become the most vital role in the whole method to start with. Good results to colleges in most states is dependent upon the most suitable picks of the universities/colleges.</p>
-                    </div>
-                  </div>
-                  
-                  <div className="gallery-child">
-                    <div>
-                    <span class="material-symbols-outlined">
-                      school
-                    </span>
-                    </div>
-                    <div>
-                      <h3>University Selection</h3>
-                      <p>University Selection has become the most vital role in the whole method to start with. Good results to colleges in most states is dependent upon the most suitable picks of the universities/colleges.</p>
-                    </div>
-                  </div>
-                  
-                  <div className="gallery-child">
-                    <div>
-                    <span class="material-symbols-outlined">
-                      school
-                    </span>
-                    </div>
-                    <div>
-                      <h3>University Selection</h3>
-                      <p>University Selection has become the most vital role in the whole method to start with. Good results to colleges in most states is dependent upon the most suitable picks of the universities/colleges.</p>
-                    </div>
-                  </div>
 
+                    <div className="gallery-child">
+                        <div>
+                            <span class="material-symbols-outlined">
+                                school
+                            </span>
+                        </div>
+                        <div>
+                            <h3>Admission Guidance</h3>
+                            <p>
+                                We understand the stress of a student hence
+                                provide personalized direction, support, and
+                                counselling to him/her, in the order they know
+                                their dream of analyzing at most colleges of
+                                both India.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>
