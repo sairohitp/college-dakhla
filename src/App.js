@@ -103,7 +103,7 @@ function App() {
                     <div className="gallery-child">
                         <div>
                             <span class="material-symbols-outlined">
-                                school
+                            checkbook
                             </span>
                         </div>
                         <div>
@@ -121,7 +121,7 @@ function App() {
                     <div className="gallery-child">
                         <div>
                             <span class="material-symbols-outlined">
-                                school
+                                co_present
                             </span>
                         </div>
                         <div>

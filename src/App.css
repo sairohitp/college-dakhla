@@ -5,6 +5,10 @@ html, body {
   background-color: #FFFFFF;
 }
 
+h1 {
+  font-size: 28px;
+}
+
 h2 {
   font-size: 3em;
   font-weight: 700;
@@ -180,6 +184,7 @@ button {
   font-weight: 600;
   font-kerning: none;
   width: fit-content;
+  transition: 0.2s ease-in-out;
 }
 
 button:hover {
@@ -245,4 +250,13 @@ button:hover {
   background-color: #A0C814;
   font-size: 50px;
   color: white;
+}
+
+.gallery > div:nth-child(2) {
+  background-color: #A0C814;
+}
+
+.gallery > div:nth-child(2) > div > span {
+  background-color: #FFFFFF;
+  color: #A0C814;
 }
