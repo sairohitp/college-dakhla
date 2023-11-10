@@ -79,9 +79,33 @@ function App() {
                     </div>
                 </div>
 
-                <div>
+                <div className="gallery">
 
-                  <div>
+                  <div className="gallery-child">
+                    <div>
+                    <span class="material-symbols-outlined">
+                      school
+                    </span>
+                    </div>
+                    <div>
+                      <h3>University Selection</h3>
+                      <p>University Selection has become the most vital role in the whole method to start with. Good results to colleges in most states is dependent upon the most suitable picks of the universities/colleges.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="gallery-child">
+                    <div>
+                    <span class="material-symbols-outlined">
+                      school
+                    </span>
+                    </div>
+                    <div>
+                      <h3>University Selection</h3>
+                      <p>University Selection has become the most vital role in the whole method to start with. Good results to colleges in most states is dependent upon the most suitable picks of the universities/colleges.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="gallery-child">
                     <div>
                     <span class="material-symbols-outlined">
                       school
