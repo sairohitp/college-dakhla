@@ -32,7 +32,7 @@ function App() {
                 <div id="whoarewe-section">
                     <div className="subbody">
                         <div>
-                            <p>WHO ARE WE</p>
+                            <p className = "sectionLabel">WHO ARE WE</p>
                             <h2>
                                 Knowledge will bring you the opportunity to make
                                 a difference.
