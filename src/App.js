@@ -1,8 +1,10 @@
 import "./App.css";
 import logo from "./assets/logo.png";
+import header from "./assets/header.png"
 
 function App() {
     return (
+      <>
         <nav class="navbar">
             <div className="subbody">
                 <div>
@@ -22,6 +24,18 @@ function App() {
                 </div>
             </div>
         </nav>
+
+        <section>
+          <img src = {header} id = "headerimg"/>
+
+          <div id = "whoarewe-section">
+            <div className="subbody">
+              WHO ARE WE
+            </div>
+          </div>
+
+        </section>
+      </>
     );
 }
 

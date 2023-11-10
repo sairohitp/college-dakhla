@@ -1,5 +1,7 @@
-html {
+html, body {
   font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -12,7 +14,6 @@ html {
   overflow: hidden;
   z-index: 1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid #ccc;
 }
 
 .navbar a {
@@ -22,7 +23,7 @@ html {
   padding: 14px;
   text-decoration: none;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -57,4 +58,16 @@ html {
   background-color: #A0C814;
   font-color: #121212;
   padding: 0px 20px;
+}
+
+section {
+  padding-top: 80px;
+}
+
+#headerimg {
+  width: 100%;
+}
+
+#whoarewe-section {
+  padding: 100px 0px;
 }
