@@ -30,7 +30,7 @@ function App() {
                 <img src={header} id="headerimg" />
 
                 <div id="whoarewe-section">
-                    <div className="subbody">
+                    <div>
                         <div className="whoarewe-column">
                             <div>
                                 <p className="sectionLabel">WHO ARE WE</p>
@@ -55,19 +55,44 @@ function App() {
                         </div>
 
                         <div class="container">
-                            <div></div>
-                            <div class="header">
-                                <img
-                                    src={whoareweimg}
-                                    alt="Building with sky background"
-                                    id="whoarewe-img"
-                                />
-                            </div>
-                            <div>
-                                <h1>Get Admissions in Top Colleges</h1>
-                            </div>
+                            
+                                <div></div>
+                                <div>
+                                    <img
+                                        src={whoareweimg}
+                                        alt=""
+                                        id="whoarewe-img"
+                                    />
+                                </div>
+                            
                         </div>
                     </div>
+
+                    <div id = "whoarewe-img-column">
+                        <span class="material-symbols-outlined bookmark">
+                            bookmark
+                        </span>
+                        <h1>
+                            Get Admissions in <br />
+                            Top Colleges
+                        </h1>
+                    </div>
+                </div>
+
+                <div>
+
+                  <div>
+                    <div>
+                    <span class="material-symbols-outlined">
+                      school
+                    </span>
+                    </div>
+                    <div>
+                      <h3>University Selection</h3>
+                      <p>University Selection has become the most vital role in the whole method to start with. Good results to colleges in most states is dependent upon the most suitable picks of the universities/colleges.</p>
+                    </div>
+                  </div>
+
                 </div>
             </section>
         </>

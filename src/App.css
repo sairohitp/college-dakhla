@@ -2,6 +2,7 @@ html, body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f5f5f5;
 }
 
 h2 {
@@ -81,24 +82,34 @@ section {
 
 #whoarewe-section {
   padding: 100px 0px;
+  width: 1280px;
+  margin: 0px auto;
+  height: 550px;
 }
 
-#whoarewe-section .subbody {
+#whoarewe-section > div:first-child {
   display: flex;
   gap: 80px;
+  position: absolute;
+  width: 1280px;
 }
 
 .whoarewe-column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 550px;
+}
+
+.container {
+  width: fit-content;
 }
 
 .container > div:first-child {
   display: block;
   margin-top: 6.7em;
   height: 350px;
-  width: 400px;
+  width: 350px;
   background-color: #A0C814;
   position: absolute;
 }
@@ -133,4 +144,27 @@ button {
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
+}
+
+.container > div:first-child {
+  position: absolute;
+}
+
+#whoarewe-img-column {
+  padding: 2em;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  /* margin: 20em 0em 0em 70em; */
+  top: 350px;
+  left: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.bookmark {
+  font-size: 35px;
+  color: #EF5F43;
 }
